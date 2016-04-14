@@ -1,0 +1,19 @@
+{
+  "name": "es6enum",
+  "version": "1.0.0",
+  "description": "Basic enum",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "author": "Andrii Hrachov (gettyimages)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
+}
