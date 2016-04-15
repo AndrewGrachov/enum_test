@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "istanbul cover _mocha"
+    "test": "istanbul cover _mocha --  -R spec --colors"
   },
   "author": "Andrii Hrachov (gettyimages)",
   "license": "ISC",
